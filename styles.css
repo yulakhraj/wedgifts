@@ -1,0 +1,186 @@
+/* General Styles */
+body {
+    font-family: 'Georgia', serif;
+    margin: 0;
+    padding: 0;
+    background: linear-gradient(to right, #ffdde1, #ee9ca7);
+    color: #4a4a4a;
+}
+
+/* Passcode Screen */
+#passcode-screen {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.8);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 9999;
+    color: white;
+}
+
+.passcode-container {
+    background: #ff6f91;
+    padding: 20px 40px;
+    border-radius: 10px;
+    text-align: center;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+}
+
+.passcode-container h2 {
+    margin-bottom: 15px;
+    font-family: 'Cursive', serif;
+    font-size: 1.8rem;
+}
+
+#passcode-input {
+    width: 80%;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    font-size: 1rem;
+}
+
+#submit-passcode {
+    margin-top: 15px;
+    padding: 10px 20px;
+    background: white;
+    color: #ff6f91;
+    font-size: 1rem;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-weight: bold;
+    transition: background 0.3s;
+}
+
+#submit-passcode:hover {
+    background: #ffd1dc;
+}
+
+#error-message {
+    margin-top: 10px;
+    color: #ffdddd;
+    font-size: 0.9rem;
+}
+
+/* Main Content */
+header {
+    text-align: center;
+    padding: 20px;
+    background: #ff6f91;
+    color: white;
+    font-family: 'Cursive', sans-serif;
+}
+
+header h1 {
+    font-size: 3rem;
+    margin-bottom: 10px;
+    font-family: 'Cursive', serif;
+}
+
+header p {
+    font-size: 1.3rem;
+    margin: 0;
+}
+
+.main-content {
+    padding: 20px;
+    text-align: center;
+}
+
+.main-content h2 {
+    color: #d72638;
+    font-size: 2rem;
+    margin-bottom: 10px;
+}
+
+.intro {
+    margin: 20px auto;
+    max-width: 600px;
+    font-size: 1.2rem;
+    line-height: 1.8;
+    background: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+    color: #333;
+}
+
+.pdf-container {
+    margin-top: 30px;
+}
+
+.pdf-links a {
+    display: inline-block;
+    margin: 10px;
+    padding: 15px 20px;
+    background: #ff6f91;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    font-weight: bold;
+    transition: background 0.3s;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
+}
+
+.pdf-links a:hover {
+    background: #ffdde1;
+    color: #ff6f91;
+}
+
+/* Honeymoon Section */
+.honeymoon-message {
+    margin-top: 30px;
+    background: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+    max-width: 800px;
+    margin: 30px auto;
+    text-align: left;
+    font-size: 1.1rem;
+    line-height: 1.8;
+    color: #444;
+}
+
+.honeymoon-message h2 {
+    text-align: center;
+    color: #d72638;
+    margin-bottom: 20px;
+    font-size: 1.8rem;
+}
+
+.honeymoon-fun ul {
+    list-style-type: none;
+    padding-left: 0;
+    margin-top: 20px;
+}
+
+.honeymoon-fun ul li {
+    font-size: 1rem;
+    margin: 10px 0;
+    padding-left: 25px;
+    position: relative;
+    line-height: 1.6;
+}
+
+.honeymoon-fun ul li::before {
+    content: "💖";
+    position: absolute;
+    left: 0;
+    top: 3px;
+    font-size: 1.2rem;
+}
+
+footer {
+    margin-top: 20px;
+    background: #ff6f91;
+    color: white;
+    text-align: center;
+    padding: 15px;
+    font-family: 'Cursive', sans-serif;
+}
