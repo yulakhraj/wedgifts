@@ -186,8 +186,15 @@ footer {
 }
 
 
+
+
+.carousel-inner {
+    height: 500px; /* Set a fixed height for the carousel container */
+    background-color: #000; /* Optional: Adds a background color for better aesthetics */
+}
+
 .carousel-img {
-    object-fit: cover;
-    height: 500px;
-    /* Adjust this to your desired height */
+    width: 100%; /* Set the width to fill the carousel container */
+    height: 100%; /* Set the height to match the carousel container */
+    object-fit: cover; /* Ensures images fill the container, cropping if necessary */
 }
