@@ -1,4 +1,4 @@
-const correctPasscode = "0000"; // Set your passcode here
+const correctPasscode = "00"; // Set your passcode here
 
 document.addEventListener("DOMContentLoaded", function () {
     const passcodeScreen = document.getElementById("passcode-screen");
@@ -29,3 +29,18 @@ var carousel = new bootstrap.Carousel(myCarousel, {
     ride: 'carousel'
 });
 
+// Password unlock event
+document.getElementById('submit-passcode').addEventListener('click', function () {
+    const passcode = document.getElementById('passcode-input').value;
+
+    if (passcode === 'your-passcode') { // Replace 'your-passcode' with the actual passcode
+        document.getElementById('passcode-screen').style.display = 'none';
+        document.getElementById('content').style.display = 'block';
+
+        // Play background music
+        const music = document.getElementById('background-music');
+        music.play();
+    } else {
+        document.getElementById('error-message').style.display = 'block';
+    }
+});
