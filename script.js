@@ -22,3 +22,9 @@ document.addEventListener("DOMContentLoaded", function () {
         }
     });
 });
+
+var myCarousel = document.querySelector('#carouselExampleAutoplaying');
+var carousel = new bootstrap.Carousel(myCarousel, {
+    interval: 1000, // 7 seconds
+    ride: 'carousel'
+});

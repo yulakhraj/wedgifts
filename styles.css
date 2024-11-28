@@ -184,3 +184,10 @@ footer {
     padding: 15px;
     font-family: 'Cursive', sans-serif;
 }
+
+
+.carousel-img {
+    object-fit: cover;
+    height: 500px;
+    /* Adjust this to your desired height */
+}
