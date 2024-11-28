@@ -1,4 +1,4 @@
-const correctPasscode = "00"; // Set your passcode here
+const correctPasscode = "2511"; // Set your passcode here
 
 document.addEventListener("DOMContentLoaded", function () {
     const passcodeScreen = document.getElementById("passcode-screen");
