@@ -71,9 +71,3 @@ A beautiful, password-protected web application created as a wedding gift for Pr
 ## Credits
 
 Created with love by Yulakh 💖
-
-## Notes
-
-- The passcode is set to "2511" in the JavaScript file
-- All media files should be placed in the `data/` directory
-- Background music autoplays after successful login
